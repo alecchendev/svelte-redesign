@@ -7,6 +7,7 @@
 	
 	const data = {
 		summary: {
+			image: "MyPhoto3.jpg",
 			header: "Hey! I'm Alec.",
 			points: [
 				"I'm a software developer, writer, and freshman majoring in CS\
@@ -16,7 +17,6 @@
 				group projects that you can check out in the ~projects section~\
 				of this website.",
 				"When I'm not working, I like to write, cook, and watch movies.",
-				"",
 			],
 		},
 		projects: [

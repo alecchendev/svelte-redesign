@@ -6,12 +6,20 @@
     div {
         font-size: 1rem;
     }
+    img {
+        width: 100%;
+        height: auto;
+    }
     ul {
         padding-left: 1.2em;
+    }
+    li {
+        font-size: 1.1rem;
     }
 </style>
 
 <div>
+    <img alt={"Picture of Alec"} src={"images/" + data.image} />
     <h1>{data.header}</h1>
     <div>
         <ul>
