@@ -29,7 +29,16 @@
 					"Javascript",
 					"WebGL",
 				],
-				description: "Bla bla bla"
+				description: "This project is very much still a work in progress, but I've gotten the basic mechanics functioning. Looking to deploy this early version of it sometime soon, however I'm still learning my way around the block as a web developer. I'm not using a game engine, or even a graphics library, and so working with the graphics directly and doing everything myself has made things a bit more difficult, but I'm really proud of my work so far. Looking forward to fleshing out more features, and hopefully getting to some sort of multiplayer functionality eventually.",
+			},
+			{
+				image: "3DEngine.gif",
+				title: "3D Graphics Engine From Scratch",
+				stack: [
+					"C++",
+					"Cinder",
+				],
+				description: "Given 3-4 weeks to just \"make something\" using C++ and the graphics API Cinder, I set out to build the systems behind transforming 3D perspective to a 2D screen. After a lot of pacing around my dorm room thinking about matrices, I developed a system with simple lighting that could render a first person perspective moving and looking around inside of a room, or any 3D model made of triangles.",
 			},
 		],
 		writing: [
@@ -81,7 +90,7 @@
 		width: 50%;
 
 		margin: auto;
-		padding-top: 50px;
+		padding-top: 100px;
 	}
 	.contentWrapper {
 		margin-top: 100px;
