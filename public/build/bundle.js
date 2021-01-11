@@ -413,20 +413,20 @@ var app = (function () {
     			t5 = space();
     			div4 = element("div");
     			div4.textContent = "Writing";
-    			attr_dev(div0, "class", "navLink svelte-1030rfd");
-    			add_location(div0, file, 32, 22, 572);
+    			attr_dev(div0, "class", "navLink svelte-o42ho1");
+    			add_location(div0, file, 32, 22, 573);
     			attr_dev(div1, "class", "left");
-    			add_location(div1, file, 32, 4, 554);
-    			attr_dev(div2, "class", "navLink svelte-1030rfd");
-    			add_location(div2, file, 34, 8, 680);
-    			attr_dev(div3, "class", "navLink svelte-1030rfd");
-    			add_location(div3, file, 35, 8, 758);
-    			attr_dev(div4, "class", "navLink svelte-1030rfd");
-    			add_location(div4, file, 36, 8, 835);
-    			attr_dev(div5, "class", "right svelte-1030rfd");
-    			add_location(div5, file, 33, 4, 651);
-    			attr_dev(div6, "class", "header svelte-1030rfd");
-    			add_location(div6, file, 31, 0, 528);
+    			add_location(div1, file, 32, 4, 555);
+    			attr_dev(div2, "class", "navLink svelte-o42ho1");
+    			add_location(div2, file, 34, 8, 681);
+    			attr_dev(div3, "class", "navLink svelte-o42ho1");
+    			add_location(div3, file, 35, 8, 759);
+    			attr_dev(div4, "class", "navLink svelte-o42ho1");
+    			add_location(div4, file, 36, 8, 836);
+    			attr_dev(div5, "class", "right svelte-o42ho1");
+    			add_location(div5, file, 33, 4, 652);
+    			attr_dev(div6, "class", "header svelte-o42ho1");
+    			add_location(div6, file, 31, 0, 529);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -794,7 +794,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (91:4) {#each projects as project}
+    // (57:4) {#each projects as project}
     function create_each_block$1(ctx) {
     	let div1;
     	let img;
@@ -829,20 +829,20 @@ var app = (function () {
     			p = element("p");
     			t5 = text(t5_value);
     			t6 = space();
-    			attr_dev(img, "class", "projectImage svelte-8h0u9k");
+    			attr_dev(img, "class", "projectImage svelte-2gadcz");
     			attr_dev(img, "alt", "project image");
     			if (img.src !== (img_src_value = "images/" + /*project*/ ctx[1].image)) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$2, 92, 12, 1770);
-    			attr_dev(h2, "class", "projectTitle svelte-8h0u9k");
-    			add_location(h2, file$2, 94, 16, 1908);
-    			attr_dev(h3, "class", "projectStack svelte-8h0u9k");
-    			add_location(h3, file$2, 95, 16, 1971);
-    			attr_dev(p, "class", "projectDescription svelte-8h0u9k");
-    			add_location(p, file$2, 96, 16, 2044);
-    			attr_dev(div0, "class", "projectInfo svelte-8h0u9k");
-    			add_location(div0, file$2, 93, 12, 1865);
-    			attr_dev(div1, "class", "project svelte-8h0u9k");
-    			add_location(div1, file$2, 91, 8, 1735);
+    			add_location(img, file$2, 58, 12, 1067);
+    			attr_dev(h2, "class", "projectTitle svelte-2gadcz");
+    			add_location(h2, file$2, 60, 16, 1205);
+    			attr_dev(h3, "class", "projectStack svelte-2gadcz");
+    			add_location(h3, file$2, 61, 16, 1268);
+    			attr_dev(p, "class", "projectDescription svelte-2gadcz");
+    			add_location(p, file$2, 62, 16, 1341);
+    			attr_dev(div0, "class", "projectInfo svelte-2gadcz");
+    			add_location(div0, file$2, 59, 12, 1162);
+    			attr_dev(div1, "class", "project svelte-2gadcz");
+    			add_location(div1, file$2, 57, 8, 1032);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -877,7 +877,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(91:4) {#each projects as project}",
+    		source: "(57:4) {#each projects as project}",
     		ctx
     	});
 
@@ -907,8 +907,8 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h1, file$2, 89, 4, 1675);
-    			add_location(div, file$2, 88, 0, 1664);
+    			add_location(h1, file$2, 55, 4, 972);
+    			add_location(div, file$2, 54, 0, 961);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1848,10 +1848,10 @@ var app = (function () {
     			if (if_block) if_block.c();
     			t1 = space();
     			create_component(contact.$$.fragment);
-    			attr_dev(div0, "class", "contentWrapper svelte-1ad00im");
-    			add_location(div0, file$6, 107, 1, 4444);
-    			attr_dev(div1, "class", "wrapper svelte-1ad00im");
-    			add_location(div1, file$6, 105, 0, 4365);
+    			attr_dev(div0, "class", "contentWrapper svelte-ec70xj");
+    			add_location(div0, file$6, 107, 1, 4446);
+    			attr_dev(div1, "class", "wrapper svelte-ec70xj");
+    			add_location(div1, file$6, 105, 0, 4367);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
