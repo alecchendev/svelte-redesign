@@ -3,6 +3,7 @@
 	import Summary from './Summary.svelte';
 	import Projects from './Projects.svelte';
 	import Writing from './Writing.svelte';
+	import Contact from './Contact.svelte';
 	
 	const data = {
 		summary: {
@@ -57,7 +58,13 @@
 				link: "https://alecchendev.medium.com/weekly-5-how-i-approach-shifting-my-mindset-38ce6525ef44?sk=7807755664969fc209f138a113058c8c",
 				category: "other"
 			},
-		]
+		],
+		contact: {
+			email: "mailto:alecchendev@gmail.com",
+			github: "https://github.com/alecchendev",
+			medium: "https://alecchendev.medium.com/",
+			linkedin: "https://linkedin.com/in/alec-chen-450273182/",
+		}
 	};
 	let menu = 0;
 	const sectionKey = {
@@ -92,4 +99,5 @@
 			<Writing data={data.writing} />
 		{/if}
 	</div>
+	<Contact data={data.contact} />
 </div>
