@@ -22,7 +22,7 @@
         cursor: pointer;
     }
 
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 1080px) {
         .right {
             width: 70%;
         }

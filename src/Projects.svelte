@@ -34,51 +34,14 @@
         font-size: 1.1rem;
     }
 
-    @media screen and (max-width: 1450px) {
+    @media screen and (max-width: 1080px) {
         .project {
             flex-direction: column;
         }
-
         .projectImage {
             width: 100%;
             height: auto;
         }
-        
-        .projectInfo {
-            margin-left: 0;
-            margin-top: 10px;
-            margin-bottom: 25px;
-        }
-    }
-
-    @media screen and (max-width: 1160px) {
-        .project {
-            flex-direction: row;
-            margin-bottom: 10px;
-        }
-
-        .projectImage {
-            width: 400px;
-            height: 100%;
-        }
-        
-        .projectInfo {
-            margin-left: 10px;
-            margin-top: 0px;
-            margin-bottom: 20px;
-        }
-    }
-
-    @media screen and (max-width: 850px) {
-        .project {
-            flex-direction: column;
-        }
-
-        .projectImage {
-            width: 100%;
-            height: auto;
-        }
-        
         .projectInfo {
             margin-left: 0;
             margin-top: 10px;

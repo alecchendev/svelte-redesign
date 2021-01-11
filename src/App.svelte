@@ -89,7 +89,7 @@
 
 <style>
 	.wrapper {
-		width: 50%;
+		width: 950px;
 
 		margin: auto;
 		padding-top: 100px;
@@ -99,7 +99,7 @@
 		margin-top: 100px;
 	}
 
-	@media screen and (max-width: 1160px) {
+	@media screen and (max-width: 1080px) {
         .wrapper {
 			width: 90%;
 		}
