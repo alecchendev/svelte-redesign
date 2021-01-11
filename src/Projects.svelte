@@ -6,6 +6,7 @@
     
     .project {
         display: flex;
+        margin-bottom: 10px;
     }
     .projectImage {
         width: 400px;
@@ -13,7 +14,6 @@
     }
     .projectInfo {
         margin-left: 10px;
-        margin-bottom: 20px;
     }
     .projectTitle {
         margin: 0;
@@ -54,6 +54,7 @@
     @media screen and (max-width: 1160px) {
         .project {
             flex-direction: row;
+            margin-bottom: 10px;
         }
 
         .projectImage {
