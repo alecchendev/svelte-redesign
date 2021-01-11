@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
     import Article from './Article.svelte';
 
     export let data;

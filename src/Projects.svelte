@@ -1,7 +1,5 @@
-<script lang="ts">
-    import type { ProjectShape } from './Project.svelte';
-    import Project from './Project.svelte';
-    export let projects: ReadonlyArray<ProjectShape>;
+<script>
+    export let projects = [];
 </script>
 
 <style>
@@ -12,6 +10,12 @@
     .project {
         display: flex;
     }
+    .projectInfo {
+        margin-left: 10px;
+    }
+    .projectTitle {
+        margin: 0;
+    }
 </style>
 
 <div>
@@ -19,7 +23,7 @@
     {#each projects as project}
         <div class="project">
             <img alt={"project image"} src={"images/" + project.image}/>
-            <div>
+            <div class="projectInfo">
                 <h2 class="projectTitle">{project.title}</h2>
                 <h3 class="projectStack">{project.stack.join(' ')}</h3>
                 <p class="projectDescription">{project.description}</p>

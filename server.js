@@ -1,10 +1,15 @@
-<script lang="ts">
-	import Header from './Header.svelte';
-	import Summary from './Summary.svelte';
-	import Projects from './Projects.svelte';
-	import Writing from './Writing.svelte';
-	
-	const data = {
+const express = require('express');
+const app = express();
+
+const port = process.env.PORT || 5000;
+const cors = require('cors');
+const path = require('path');
+app.use(cors());
+
+// API endpoint
+app.get('/data', (req, res) => {
+  console.log('Getting data for the page.');
+  res.send({
 		summary: {
 			header: "Hey! I'm Alec.",
 			points: [
@@ -58,38 +63,15 @@
 				category: "other"
 			},
 		]
-	};
-	let menu = 0;
-	const sectionKey = {
-		"summary": 0,
-		"projects": 1,
-		"writing": 2, 
-	};
-	const navigate = (section) => menu = sectionKey[section];
-	
-</script>
+	});
+})
 
-<style>
-	.wrapper {
-		width: 50%;
+// serve our actual files
+app.use(express.static('public'));
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
+});
 
-		margin: auto;
-		padding-top: 50px;
-	}
-	.contentWrapper {
-		margin-top: 100px;
-	}
-</style>
-
-<div class="wrapper">
-	<Header navigate={(section) => navigate(section)} />
-	<div class="contentWrapper">
-		{#if menu === 0}
-			<Summary data={data.summary} />
-		{:else if menu === 1}
-			<Projects projects={data.projects} />
-		{:else if menu === 2}
-			<Writing data={data.writing} />
-		{/if}
-	</div>
-</div>
+app.listen(port, () => {
+  console.log(`Server is up at port ${port}`);
+});
