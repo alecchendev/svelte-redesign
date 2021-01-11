@@ -9,7 +9,7 @@
 
         width: 150px;
         margin: auto;
-        margin-top: 200px;
+        margin-top: 100px;
         text-align: center;
     }
     .iconContainer:hover .socialIcon {

@@ -45,7 +45,7 @@
         
         .projectInfo {
             margin-left: 0;
-            margin-top: 5px;
+            margin-top: 10px;
             margin-bottom: 25px;
         }
     }

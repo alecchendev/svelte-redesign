@@ -81,7 +81,9 @@
 		"projects": 1,
 		"writing": 2, 
 	};
-	const navigate = (section) => menu = sectionKey[section];
+	const navigate = (section) => {
+		menu = sectionKey[section];
+	};
 	
 </script>
 
@@ -91,6 +93,7 @@
 
 		margin: auto;
 		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 	.contentWrapper {
 		margin-top: 100px;
