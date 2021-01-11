@@ -98,6 +98,12 @@
 	.contentWrapper {
 		margin-top: 100px;
 	}
+
+	@media screen and (max-width: 1160px) {
+        .wrapper {
+			width: 90%;
+		}
+    }
 </style>
 
 <div class="wrapper">

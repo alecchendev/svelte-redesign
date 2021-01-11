@@ -21,6 +21,12 @@
         text-decoration: underline;
         cursor: pointer;
     }
+
+    @media screen and (max-width: 850px) {
+        .right {
+            width: 70%;
+        }
+    }
 </style>
 
 <div class="header">
