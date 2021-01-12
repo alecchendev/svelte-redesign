@@ -11,7 +11,7 @@
         height: auto;
     }
     ul {
-        padding-left: 1.2em;
+        padding-left: 1.2rem;
     }
     li {
         font-size: 1.1rem;
@@ -21,11 +21,9 @@
 <div>
     <img alt={"Picture of Alec"} src={"images/" + data.image} />
     <h1>{data.header}</h1>
-    <div>
-        <ul>
-            {#each data.points as point}
-                <li>{point}</li>
-            {/each}
-        </ul>
-    </div>
+    <ul>
+        {#each data.points as point}
+            <li>{point}</li>
+        {/each}
+    </ul>
 </div>

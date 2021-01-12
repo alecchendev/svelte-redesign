@@ -24,11 +24,14 @@
         font-size: 1.75rem;
     }
     .projectStack {
+        display: inline-block;
         margin: 0;
         margin-top: 5px;
 
         font-size: 1.25rem;
         font-weight: normal;
+
+        opacity: 0.75;
     }
     .projectDescription {
         margin: 0;
