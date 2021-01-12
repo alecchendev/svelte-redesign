@@ -24,7 +24,6 @@
         cursor: pointer;
         background-image: linear-gradient(180deg,transparent 90%, var(--link-color) 0);
     }
-
     @media screen and (max-width: 1080px) {
         .right {
             width: 70%;

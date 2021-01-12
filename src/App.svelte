@@ -12,11 +12,11 @@
 			points: [
 				"I'm a software developer, writer, and freshman majoring in CS\
 				and Stats at University of Illinois at Urbana-Champaign.",
-				"I'm an incoming computer graphics software engineering intern\
-				at Brunswick. I've also worked on a plethora of personal and\
-				group projects that you can check out in the ~projects section~\
+				"This semester (spring 2021) I'll be interning as a computer graphics software engineer\
+				at Brunswick, but I've also worked on a plethora of other personal and\
+				group projects that you can check out in the projects section\
 				of this website.",
-				"When I'm not working, I like to write, cook, and watch movies.",
+				"When I'm not working, I like to write, cook, and watch movies/tv shows.",
 			],
 		},
 		projects: [
@@ -64,29 +64,34 @@
 		],
 		writing: [
 			{
-				title: "Weekly 5: How I Approach Shifting My Mindset",
-				link: "https://alecchendev.medium.com/weekly-5-how-i-approach-shifting-my-mindset-38ce6525ef44?sk=7807755664969fc209f138a113058c8c",
-				category: "tech"
+				image: "3DEngine.gif",
+				title: "How I Built a 3D Engine From Scratch",
+				link: "https://medium.com/dev-genius/how-i-built-a-basic-3d-graphics-engine-from-scratch-a54df82031f3?source=friends_link&sk=8c0d8ceb7da3e19e73c0175d988befc5",
 			},
 			{
-				title: "Weekly 5: How I Approach Shifting My Mindset",
-				link: "https://alecchendev.medium.com/weekly-5-how-i-approach-shifting-my-mindset-38ce6525ef44?sk=7807755664969fc209f138a113058c8c",
-				category: "tech"
+				image: "CrashCourse.png",
+				title: "A Crash Course on Software Testing But Interesting",
+				link: "https://medium.com/swlh/a-crash-course-on-software-testing-but-interesting-8cbe007e021b?source=friends_link&sk=f14fba221c26fef8c13ea25abd1ec12a",
 			},
 			{
-				title: "Weekly 5: How I Approach Shifting My Mindset",
-				link: "https://alecchendev.medium.com/weekly-5-how-i-approach-shifting-my-mindset-38ce6525ef44?sk=7807755664969fc209f138a113058c8c",
-				category: "tech"
+				image: "SimpleKey.jpg",
+				title: "The Simple Key to Living Healthier and Happier",
+				link: "https://alecchendev.medium.com/the-simple-key-to-living-healthier-and-happier-529dbb7f0b9c?source=friends_link&sk=e86240a7ba734db4ee2a3afa3669e745",
 			},
 			{
-				title: "Weekly 5: How I Approach Shifting My Mindset",
-				link: "https://alecchendev.medium.com/weekly-5-how-i-approach-shifting-my-mindset-38ce6525ef44?sk=7807755664969fc209f138a113058c8c",
-				category: "other"
+				image: "WorthTelevision.png",
+				title: "The Worth of Television",
+				link: "https://alecchendev.medium.com/finding-solace-through-television-fe7392a40b11?sk=d10049e4c852838ced7328caf61e205e",
 			},
 			{
-				title: "Weekly 5: How I Approach Shifting My Mindset",
-				link: "https://alecchendev.medium.com/weekly-5-how-i-approach-shifting-my-mindset-38ce6525ef44?sk=7807755664969fc209f138a113058c8c",
-				category: "other"
+				image: "SocialNetwork.png",
+				title: "Analyzing the Social Network of My High School",
+				link: "https://alecchendev.medium.com/analyzing-the-social-network-of-my-high-school-7763df719363?source=friends_link&sk=62b4f16ac9c4786c71b801b226f7e289",
+			},
+			{
+				image: "College.jpg",
+				title: "Getting Rejected From All My Colleges",
+				link: "https://alecchendev.medium.com/getting-rejected-from-all-my-colleges-eae0b39e3d72?sk=e7483fdbd458188b051de9fd0709207f",
 			},
 		],
 		contact: {
@@ -119,7 +124,6 @@
 	.contentWrapper {
 		margin-top: 100px;
 	}
-
 	@media screen and (max-width: 1080px) {
         .wrapper {
 			width: 90%;

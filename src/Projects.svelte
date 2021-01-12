@@ -3,8 +3,6 @@
 </script>
 
 <style>
-    h1 {
-    }
     .project {
         display: flex;
         margin-bottom: 15px;
@@ -12,7 +10,6 @@
     .projectImage {
         width: 400px;
         height: 100%;
-
         border: 1px solid black;
     }
     .projectInfo {
@@ -20,14 +17,13 @@
     }
     .projectTitle {
         margin: 0;
-
         font-size: 1.75rem;
     }
     .projectStack {
         display: inline-block;
         margin: 0;
         margin-top: 5px;
-
+        
         font-size: 1.25rem;
         font-weight: normal;
 
@@ -36,10 +32,8 @@
     .projectDescription {
         margin: 0;
         margin-top: 10px;
-
         font-size: 1.1rem;
     }
-
     @media screen and (max-width: 1080px) {
         .project {
             flex-direction: column;
