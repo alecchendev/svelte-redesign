@@ -7,7 +7,7 @@
 	
 	const data = {
 		summary: {
-			image: "MyPhoto3.jpg",
+			image: "MyPhoto.jpg",
 			header: "Hey! I'm Alec.",
 			points: [
 				"I'm a software developer, writer, and freshman majoring in CS\
@@ -21,7 +21,7 @@
 		},
 		projects: [
 			{
-				image: "RunnerGame3.gif",
+				image: "RunnerGame.gif",
 				title: "Platform Runner Game",
 				stack: [
 					"Rust",
@@ -29,7 +29,7 @@
 					"Javascript",
 					"WebGL",
 				],
-				description: "This project is very much still a work in progress, but I've gotten the basic mechanics functioning. Looking to deploy this early version of it sometime soon, however I'm still learning my way around the block as a web developer. I'm not using a game engine, or even a graphics library, and so working with the graphics directly and doing everything myself has made things a bit more difficult, but I'm really proud of my work so far. Looking forward to fleshing out more features, and hopefully getting to some sort of multiplayer functionality eventually.",
+				description: "A simple 3D platformer game where you traverse levels as fast as you can using a spiderman-esque grappling hook ability. I didn't use a game engine, so I had to work with the graphics directly, and craft my own physics/collision system. It was difficult, but I learned a lot, and I think it turned out pretty well.",
 			},
 			{
 				image: "3DEngine.gif",
@@ -38,7 +38,28 @@
 					"C++",
 					"Cinder",
 				],
-				description: "Given 3-4 weeks to just \"make something\" using C++ and the graphics API Cinder, I set out to build the systems behind transforming 3D perspective to a 2D screen. After a lot of pacing around my dorm room thinking about matrices, I developed a system with simple lighting that could render a first person perspective moving and looking around inside of a room, or any 3D model made of triangles.",
+				description: "Given 3-4 weeks to make something using C++ and the graphics API Cinder, I set out to build the systems behind transforming 3D perspective to a 2D screen. After a lot of pacing around my dorm room, I developed a system with simple lighting that could render a first person perspective moving around inside of a room.",
+			},
+			{
+				image: "Nutribuddy.gif",
+				title: "Nutribuddy",
+				stack: [
+					"Javascript",
+					"React",
+					"Python",
+					"Flask",
+				],
+				description: "Here I served as the frontend developer on a nutrition recommendation web app my team called Nutribuddy. Working together we cranked out a pretty sleek MVP that takes in a user's dietary preferences and restrictions, and outputs a week's worth of curated meals.",
+			},
+			{
+				image: "SocialNetwork.png",
+				title: "Social Network Analysis",
+				stack: [
+					"Python",
+					"Matplotlib",
+					"Networkx",
+				],
+				description: "Getting into network analysis through research during high school, I collected friendship data through survey responses and wrote an article with my analysis and visualization of the social network of those around me. I tried really hard to break down the raw statistics into more digestible insights, and it was really cool to get responses from classmates that'd read my piece.",
 			},
 		],
 		writing: [

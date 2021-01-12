@@ -3,14 +3,17 @@
 </script>
 
 <style>
-    
+    h1 {
+    }
     .project {
         display: flex;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .projectImage {
         width: 400px;
         height: 100%;
+
+        border: 1px solid black;
     }
     .projectInfo {
         margin-left: 10px;
@@ -18,7 +21,7 @@
     .projectTitle {
         margin: 0;
 
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     .projectStack {
         margin: 0;
